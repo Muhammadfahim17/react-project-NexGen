@@ -2,7 +2,9 @@ import React from 'react'
 
 const Fahim1 = () => {
   return (
-    <div>Fahim1</div>
+    <div className='bg-[#0F0F0F] text-white'>
+
+    </div>
   )
 }
 
