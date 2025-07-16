@@ -1,0 +1,32 @@
+{
+    "data" : [
+        {
+            "name" : "Sobir",
+            "img" : "/image (15)",
+            "age" : "20",
+            "status" : true,
+            "id" : "1"
+        },
+        {
+            "name" : "Abdullo",
+            "img" : "/image (15)",
+            "age" : "10",
+            "status" : false,
+            "id" : "2"
+        },
+        {
+            "name" : "Sobir",
+            "img" : "/image (15)",
+            "age" : "20",
+            "status" : true,
+            "id" : "3"
+        },
+        {
+            "name" : "Sobir",
+            "img" : "/image (15)",
+            "age" : "20",
+            "status" : false,
+            "id" : "4"
+        }
+    ]
+}
