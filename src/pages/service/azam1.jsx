@@ -50,9 +50,9 @@ export default function Azam1() {
       <div className='bg-[#1A1A1A] p-[20px] rounded-[10px]'>
         <h1 className='font-black text-[30px] text-white'>Key Features of Our Projects</h1>
       </div>
-      <div>
-        <CardAzam2 img={imgAzam6} img2={imgAzam2} name="Zenith Fitness App"/>
-        <CardAzam2 img={imgAzam6} img2={imgAzam2} name="Zenith Fitness App"/>
+      <div className='flex flex-col gap-[20px]'>
+        <CardAzam2 img={imgAzam6} img2={imgAzam2} des1="An all-in-one health and wellness app that offers personalized fitness plans, nutrition guidance, and virtual workout classes. An all-in-one health and wellness app that offers personalized fitness plans, nutrition guidance, and virtual workout classes." name="Zenith Fitness App"/>
+        <CardAzam2 img={imgAzam7} img2={imgAzam3} des1="An all-in-one health and wellness app that offers personalized fitness plans, nutrition guidance, and virtual workout classes. An all-in-one health and wellness app that offers personalized fitness plans, nutrition guidance, and virtual workout classes." name="Zenith Fitness App"/>
       </div>
     </section>
 
@@ -78,13 +78,13 @@ function CardAzam1(props) {
 function CardAzam2(props) {
   
   return(
-    <div className='flex gap-[20px] items-center justify-center'>
-      <div className='lg:w-[579px] bg-[#1A1A1A] rounded-[10px] lg:h-[426px] p-[20px]'>
-      <div className='flex items-center gap-[20px]'>
+    <div className='flex gap-[20px] items-center justify-center lg:flex-row flex-col'>
+      <div className='lg:w-[579px] bg-[#1A1A1A] rounded-[10px] lg:h-[426px] p-[20px] flex flex-col gap-[20px] justify-around'>
+      <div className='flex items-center gap-[20px] text-white'>
         <img src={props.img2} alt="" />
         <h1 className='text-[30px] font-bold'>{props.name}</h1>
       </div>
-      <p>{props.des1}</p>
+      <p className='text-gray-500 mt-[20px]'>{props.des1}</p>
       </div>
       <img src={props.img} alt="" />
     <div className='lg:w-[579px] bg-[#1A1A1A] rounded-[10px] lg:h-[426px]'>
