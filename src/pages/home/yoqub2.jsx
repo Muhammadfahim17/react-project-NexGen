@@ -2,7 +2,9 @@ import React from 'react'
 
 const Yoqub2 = () => {
   return (
-    <div>Yoqub2</div>
+    <>
+      <section className='px-[10%] flex  '></section>
+    </>
   )
 }
 
