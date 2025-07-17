@@ -1,20 +1,54 @@
 {
+
+	"data": [
+		{
+			"name": "Sobir",
+			"age": "25",
+			"des": "Their name digital marketing strategies helped us reach new customers and increase our revenue by 30% within just a few months. Highly recommended!",
+			"status": true,
+			"img": "./public/Image (15).svg",
+			"id": "1"
+		},
+		{
+			"name": "Ali",
+			"age": "21",
+			"des": "Their name digital marketing strategies helped us reach new customers and increase our revenue by 30% within just a few months. Highly recommended!",
+			"status": false,
+			"img": "./public/Image (15).svg",
+			"id": "2"
+		},
+		{
+			"name": "Sobir",
+			"img": "./public/Image (15).svg",
+			"age": "20",
+			"status": true,
+			"id": "3",
+			"des": "Their digital marketing strategies helped us reach new customers and increase our revenue by 30% within just a few months. Highly recommended!"
+		}
+	]
+}
+
   "data": [
     {
+
       "name": "Sobir Name",
       "age": "25fw",
+
+      "name": "Sobir",
+      "age": "25",
+
       "des": "Their name digital marketing strategies helped us reach new customers and increase our revenue by 30% within just a few months. Highly recommended!",
       "status": true,
       "img": "./public/Image (15).svg",
       "id": "1"
     },
     {
-      "name": "Abdullo",
-      "img": "./public/Image (15).svg",
-      "age": "10",
+      "name": "Ali",
+      "age": "21",
+      "des": "Their name digital marketing strategies helped us reach new customers and increase our revenue by 30% within just a few months. Highly recommended!",
       "status": false,
-      "id": "2",
-      "des": "Their digital marketing strategies helped us reach new customers and increase our revenue by 30% within just a few months. Highly recommended!"
+      "img": "./public/Image (15).svg",
+      "id": "2"
     },
     {
       "name": "Sobir",
@@ -24,5 +58,72 @@
       "id": "3",
       "des": "Their digital marketing strategies helped us reach new customers and increase our revenue by 30% within just a few months. Highly recommended!"
     }
+  ],
+  "ahliddin": [
+    {
+      "text": "NexGen turned our business around!",
+      "desc": "Their digital marketing strategies helped us reach new customers and increase our revenue by 30% within just a few months. Highly recommended!",
+      "img": "./src/pages/contact/ahliddinsImages/user1.png",
+      "name": "Sarah Thompson",
+      "job": "CEO of BlueBloom",
+      "id": "1"
+    },
+    {
+      "text": "NexGen turned our business around!",
+      "desc": "Their digital marketing strategies helped us reach new customers and increase our revenue by 30% within just a few months. Highly recommended!",
+      "img": "./src/pages/contact/ahliddinsImages/user2.png",
+      "name": "Wade Warren",
+      "job": "Art Director",
+      "id": "2"
+    },
+    {
+      "text": "Working with NexGen was a pleasure.",
+      "desc": "Their web design team created a stunning website that perfectly captured our brand's essence. The feedback from our customers has been overwhelmingly positive.",
+      "img": "./src/pages/contact/ahliddinsImages/user3.png",
+      "name": "Lisa Williams",
+      "job": "CEO Of HealthTech",
+      "id": "3"
+    },
+    {
+      "text": "NexGen's web design team brought our vision to life.",
+      "desc": "Their responsive design ensures our website looks stunning on all devices, contributing to increased user engagement.",
+      "img": "./src/pages/contact/ahliddinsImages/user4.png",
+      "name": "Jennifer Lee",
+      "job": "COO of Foodie Haven",
+      "id": "4"
+    },
+    {
+      "text": "NexGen's web design team brought our vision to life.",
+      "desc": "Their web design team created a stunning website that perfectly captured our brand's essence. The feedback from our customers has been overwhelmingly positive.",
+      "img": "./src/pages/contact/ahliddinsImages/user1.png",
+      "name": "tnrekthjenrpogihjr",
+      "job": "fglfdptlhkerptohprtohkrthk",
+      "id": "5"
+    },
+    {
+      "text": "NexGen's web design team brought our vision to life.",
+      "desc": "Their web design team created a stunning website that perfectly captured our brand's essence. The feedback from our customers has been overwhelmingly positive.",
+      "img": "./src/pages/contact/ahliddinsImages/user1.png",
+      "name": "tnrekthjenrpogihjr",
+      "job": "fglfdptlhkerptohprtohkrthk",
+      "id": "6"
+    },
+    {
+      "text": "NexGen's web design team brought our vision to life.",
+      "desc": "Their web design team created a stunning website that perfectly captured our brand's essence. The feedback from our customers has been overwhelmingly positive.",
+      "img": "./src/pages/contact/ahliddinsImages/user1.png",
+      "name": "tnrekthjenrpogihjr",
+      "job": "fglfdptlhkerptohprtohkrthk",
+      "id": "7"
+    },
+    {
+      "text": "NexGen's web design team brought our vision to life.",
+      "desc": "Their web design team created a stunning website that perfectly captured our brand's essence. The feedback from our customers has been overwhelmingly positive.",
+      "img": "./src/pages/contact/ahliddinsImages/user1.png",
+      "name": "exampl1",
+      "job": "exampl2",
+      "id": "8"
+    }
   ]
 }
+
