@@ -111,10 +111,11 @@ const Layout = () => {
         </div>
 
     </header>
-    <main>
+
+    <main className='pt-[200px]'>
         <Outlet/>
     </main>
-    <footer className='bg-[#0F0F0F] text-white pt-[60px]'>
+    <footer className='bg-[#0F0F0F] text-white pt-[180px]'>
 
 
 
