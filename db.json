@@ -1,28 +1,28 @@
 {
-  "data": [
-    {
-      "name": "Sobir",
-      "age": "25",
-      "des": "Their name digital marketing strategies helped us reach new customers and increase our revenue by 30% within just a few months. Highly recommended!",
-      "status": true,
-      "img": "./public/Image (15).svg",
-      "id": "1"
-    },
-    {
-      "name": "Ali",
-      "age": "21",
-      "des": "Their name digital marketing strategies helped us reach new customers and increase our revenue by 30% within just a few months. Highly recommended!",
-      "status": false,
-      "img": "./public/Image (15).svg",
-      "id": "2"
-    },
-    {
-      "name": "Sobir",
-      "img": "./public/Image (15).svg",
-      "age": "20",
-      "status": true,
-      "id": "3",
-      "des": "Their digital marketing strategies helped us reach new customers and increase our revenue by 30% within just a few months. Highly recommended!"
-    }
-  ]
+	"data": [
+		{
+			"name": "Sobir",
+			"age": "25",
+			"des": "Their name digital marketing strategies helped us reach new customers and increase our revenue by 30% within just a few months. Highly recommended!",
+			"status": true,
+			"img": "./public/Image (15).svg",
+			"id": "1"
+		},
+		{
+			"name": "Ali",
+			"age": "21",
+			"des": "Their name digital marketing strategies helped us reach new customers and increase our revenue by 30% within just a few months. Highly recommended!",
+			"status": false,
+			"img": "./public/Image (15).svg",
+			"id": "2"
+		},
+		{
+			"name": "Sobir",
+			"img": "./public/Image (15).svg",
+			"age": "20",
+			"status": true,
+			"id": "3",
+			"des": "Their digital marketing strategies helped us reach new customers and increase our revenue by 30% within just a few months. Highly recommended!"
+		}
+	]
 }
