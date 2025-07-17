@@ -126,14 +126,12 @@ export default function Azam2(props) {
 
     <section className="w-[96%] flex-col lg:flex-row m-auto bg-[#1A1A1A] rounded-[10px] lg:h-[630px] flex  p-[20px] lg:p-[30px] items-center gap-[20px]">
       <aside>
-        <h1 className='font-black text-[60px] text-white'>Elevating Brands in the Digital Age </h1>
+        <h1 className='font-black text-[50px] lg:text-[70px] text-white'>Elevating Brands in the Digital Age </h1>
         {/* <p className='text-gray-500 text-[20px]'>At NexGen, we are committed to empowering your digital vision with innovative solutions tailored to your unique needs. Our team of skilled professionals, coupled with cutting-edge technologies, ensures that we deliver exceptional results that elevate your online presence.</p> */}
       </aside>
       <img src={imgAzam7} alt="" />
     </section>
-    <Button type="primary" onClick={showModal}>
-      + Add New User
-    </Button>
+
     <Modal
       title="Basic Modal"
       closable={{ 'aria-label': 'Custom Close Button' }}
@@ -152,13 +150,14 @@ export default function Azam2(props) {
         </select>
       </div>
     </Modal>
-  
 
 
 
-    <section className='text-white'>
+
+    <section className='text-white mt-[20px]'>
 
       <div className='w-[95%] m-auto pb-[100px]'>
+        <Button type="primary" onClick={showModal}> + Add New User </Button>
         <div className='bg-[#1A1A1A] p-[25px] rounded-xl flex items-center justify-between'>
           <h1 className='font-[500] text-[35px]'>Meet the brilliant minds behind NexGen</h1>
           <p className='text-[#B3B3B2] font-bold'>ALL BLOGS</p>

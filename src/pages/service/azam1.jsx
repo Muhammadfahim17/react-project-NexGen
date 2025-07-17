@@ -16,7 +16,7 @@ import imgAzam4 from './Img/Icon Container (5).png'
 import imgAzam5 from './Img/Icon Container (6).png'
 import imgAzam6 from './Img/Image (21).png'
 import imgAzam7 from './Img/Image (22).png'
-
+import imgAzam10 from './Img/Container (9).png'
 
 export default function Azam1() {
 
@@ -87,7 +87,12 @@ function CardAzam2(props) {
       <p className='text-gray-500 mt-[20px]'>{props.des1}</p>
       </div>
       <img src={props.img} alt="" />
-    <div className='lg:w-[579px] bg-[#1A1A1A] rounded-[10px] lg:h-[426px]'>
+    <div className='lg:w-[579px] border p-[20px] gap-[20px] border-[#1A1A1A] rounded-[10px] lg:h-[426px] flex flex-col justify-center'>
+      <div className='w-[100%] h-[225px] bg-[#1A1A1A] rounded-[10px]'>
+      <h1 className='font-bold text-white p-[20px] text-[30px]'>Technologies Used</h1>
+      </div>
+      <img src={imgAzam10} alt="" />
+      <button className='w-[100%] m-auto bg-[#CE7D63] text-center h-[63px] rounded-[10px] '>Book A Call</button>
 
       </div>
     </div>
