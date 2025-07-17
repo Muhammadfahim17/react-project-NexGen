@@ -1,5 +1,5 @@
 import {create} from 'zustand'
-let api = "http://localhost:3000/data"
+let api = "http://localhost:3001/data"
 
 export let useTodoAsyncStore = create((set) => ({
     users : [],
@@ -79,3 +79,6 @@ export let useTodoAsyncStore = create((set) => ({
     }
 
 }))
+
+
+
