@@ -14,7 +14,6 @@ const Layout = () => {
     <div>
 
     <header>
-
         <div className='hidden sm:block'>
         <div className='w-[90%] m-auto flex items-center justify-between p-[25px] bg-[#1C1C21] text-white rounded-xl absolute left-[5%]'>
             <img src={image1} alt="" />
