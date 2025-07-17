@@ -129,7 +129,14 @@ export default function Azam2(props) {
         <h1 className='font-black text-[50px] lg:text-[70px] text-white'>Elevating Brands in the Digital Age </h1>
         {/* <p className='text-gray-500 text-[20px]'>At NexGen, we are committed to empowering your digital vision with innovative solutions tailored to your unique needs. Our team of skilled professionals, coupled with cutting-edge technologies, ensures that we deliver exceptional results that elevate your online presence.</p> */}
       </aside>
-      <img src={imgAzam7} alt="" />
+      <div className='flex flex-wrap gap-[20px]'>
+
+      {/* <img src={imgAzam7} alt="" /> */}
+      <Clients num="200" name="Clients"/>
+      <Clients num="280" name="PROJECTS"/>
+      <Clients num="100" name="HAPPY CLIENTS"/>
+      <Clients num="420" name="FOLLOWER"/>
+      </div>
     </section>
 
     <Modal
@@ -279,4 +286,17 @@ export default function Azam2(props) {
 
 
   </>)
+}
+
+
+
+ function Clients(props) {
+  return (
+    <section className="bg-[#1F1F1F] py-24  w-[266px] h-[50px] flex justify-center items-center rounded-[30px]">
+      <div className="text-center w-[266px] h-[50px]">
+        <h2 className="text-gray-400 text-xl tracking-widest uppercase">{props.name}</h2>
+        <p className="text-[70px] font-bold text-[#E3AFA2] leading-none">{props.num}+</p>
+      </div>
+    </section>
+  );
 }

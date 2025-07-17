@@ -31,6 +31,7 @@ export default function Azam1() {
         <p className='text-gray-500 text-[20px]'>At NexGen, we are committed to empowering your digital vision with innovative solutions tailored to your unique needs. Our team of skilled professionals, coupled with cutting-edge technologies, ensures that we deliver exceptional results that elevate your online presence.</p>
       </aside>
       <img src={imgAzam1} alt="" />
+
     </section>
 
 
@@ -97,4 +98,16 @@ function CardAzam2(props) {
       </div>
     </div>
   )
+}
+
+
+ function Clients(props) {
+  return (
+    <section className="bg-[#1a1a1a] py-20 flex justify-center items-center">
+      <div className="text-center">
+        <h2 className="text-gray-400 text-xl tracking-widest uppercase">{props.name}</h2>
+        <p className="text-[120px] font-bold text-[#E3AFA2] leading-none">{props.num}+</p>
+      </div>
+    </section>
+  );
 }
