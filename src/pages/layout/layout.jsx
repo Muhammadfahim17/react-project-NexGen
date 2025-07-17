@@ -70,7 +70,7 @@ const Layout = () => {
 
 
         <div className='sm:hidden'>
-        <div className='w-[90%] m-auto flex items-center justify-between p-[25px] bg-[#1C1C21] text-white rounded-xl'>
+        <div className='w-[90%] m-auto flex items-center justify-between p-[25px] bg-[#1C1C21] text-white rounded-xl absolute left-[5%]'>
             <img src={image1} alt="" />
             <div className='flex items-center gap-[40px]'>
             <details>
@@ -211,24 +211,24 @@ const Layout = () => {
         <img src={image5} alt="" />
         <img src={image2    } alt="" />
         </div>
-        <h1 className='text-[#F9EFEC] font-[600] text-[22px]'>INSTAGRAM</h1>
-        <p className='text-[#B3B3B2] font-[500]'>Share visually appealing snippets of our projects.</p>
+        <h1 className='text-[#F9EFEC] font-[600] text-[22px]'>TWITTER</h1>
+        <p className='text-[#B3B3B2] font-[500]'>Tweet about interesting coding challenges</p>
     </div>
     <div className='bg-[#1A1A1A] p-[20px] rounded-xl w-[280px] flex flex-col gap-[30px]'>
         <div className='flex justify-between items-center'>
         <img src={image6} alt="" />
         <img src={image2    } alt="" />
         </div>
-        <h1 className='text-[#F9EFEC] font-[600] text-[22px]'>INSTAGRAM</h1>
-        <p className='text-[#B3B3B2] font-[500]'>Share visually appealing snippets of our projects.</p>
+        <h1 className='text-[#F9EFEC] font-[600] text-[22px]'>DRIBBLE</h1>
+        <p className='text-[#B3B3B2] font-[500]'>Showcase design elements of our web projects.</p>
     </div>
     <div className='bg-[#1A1A1A] p-[20px] rounded-xl w-[280px] flex flex-col gap-[30px]'>
         <div className='flex justify-between items-center'>
         <img src={image7} alt="" />
         <img src={image2    } alt="" />
         </div>
-        <h1 className='text-[#F9EFEC] font-[600] text-[22px]'>INSTAGRAM</h1>
-        <p className='text-[#B3B3B2] font-[500]'>Share visually appealing snippets of our projects.</p>
+        <h1 className='text-[#F9EFEC] font-[600] text-[22px]'>BEHANCE</h1>
+        <p className='text-[#B3B3B2] font-[500]'>Create detailed presentations for our projects.</p>
     </div>
     </div>
 
