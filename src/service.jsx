@@ -13,7 +13,6 @@ export let useTodoAsyncStore = create((set) => ({
             console.error(error);
         }
     },
-
     deleteuser : async (id) => {
         try {
             await fetch(`${api}/${id}`, {
